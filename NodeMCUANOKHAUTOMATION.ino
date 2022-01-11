@@ -43,12 +43,12 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = " lei21ItlI4hHgh5fzcCdJV3RVCmbO-qJ";
+char auth[] = " lei21ItlI4hHgh5fzcCdJV3RVCmbO-qJ";// change your Blynk auth token
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "dewa406";
-char pass[] = "Ramesh16384";
+char ssid[] = "dewa406";//enter the wifi SSID
+char pass[] = "Ramesh16384";//enter the WIFI password
 BLYNK_WRITE(V0)
 {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
